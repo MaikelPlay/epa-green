@@ -1,0 +1,219 @@
+/* AVISO ========================================== 
+
+OJO: ESTE ARCHIVO NO PUEDE MODIFICARSE PARA OBTENER EL RESULTADO DEL EJERCICIO
+
+*/
+
+
+/* GENERAL ======================================== */
+
+/* --- APARTADO 11 --- */
+body {
+  padding-top: 85px;
+	background-color: #fff;
+	font-size: 16px;  
+	color: #505050;
+}
+
+/* HEADER Section ================================= */
+
+/* --- APARTADO 1 --- */
+#page-header {
+  padding: 20px 0;
+  border-bottom: 3px solid #3bb375;
+  background-color: #fff;
+  box-shadow: 0px 10px 5px 1px rgba(218, 219, 232, 0.7);
+}
+
+#box-logo {
+  float: left;
+  margin: 3px 0;
+	text-align: center;
+}
+#box-logo .page-logo {
+	display: block;
+}
+#box-logo .page-logo .image-logo {
+  display: block;  
+	width: 100%;
+}
+
+#main-menu {
+  float: right;
+	text-align: center;
+}
+#main-menu .menu-item {
+  display: inline-block;
+	padding: 15px 15px;
+  border-radius: 5px;  
+	font-size: 16px;
+	font-weight: 600; /* o font-weight: bold; */	
+	text-transform: uppercase;
+	color: #39464f;	
+}
+#main-menu .menu-item:hover {
+	background-color: #3bb375;
+	color: #fff;
+}
+
+/* SLIDER Section ================================= */
+
+/* --- APARTADO 2 --- */
+#slider {
+	height: 600px;
+}
+
+#box-slider {
+  width: 100%;
+	height: 100%;
+}
+#box-slider .slider-image {
+	width: 100%;
+	height: 100%;
+}
+
+/* --- APARTADO 3 --- */
+
+.box-banner {
+	padding: 25px;
+  border-radius: 15px 15px 0 0;
+  background-color: #3bb375;
+  text-align: center;
+	color: #fff;
+  margin: 0 5.8px;
+}
+.box-banner .banner-image {
+  margin-bottom: 24px;
+  border-radius: 50%;  
+	background-color: #39464f;
+	color: #fff;
+}
+.box-banner .banner-title {
+	margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.box-banner .banner-text {
+	margin-bottom: 10px;
+}
+
+/* WELCOME Section ================================ */
+
+#welcome {
+	padding: 40px 0;
+	background-color: #39464f;	
+  color: #fff;
+}
+
+.box-welcome {
+  margin-bottom: 50px;
+	text-align: center;
+	font-weight: 600;
+}
+.box-welcome .welcome-title {
+  margin-bottom: 15px;
+	font-size: 3em;
+  font-weight: 600;
+	text-transform: uppercase;
+}
+
+/* --- APARTADO 12 --- */
+.social .icon {
+  display: inline-block;
+	color: #fff;
+}
+.social .icon + a.icon {
+  margin-left: 25px;
+}
+.social .icon:hover {
+	color: #3bb375;
+}
+
+/* ACTIVITIES Section ============================= */
+
+#activities{
+  padding-bottom: 100px;
+}
+
+.box-activity {
+  padding: 0 35px;
+  transition: all 0.3s ease 0s;  
+}
+/* --- APARTADO 6 --- */
+.box-activity .activity-header {
+  text-align: center;
+}
+.box-activity .activity-image {
+  display: block;
+  width: 100%;
+  border-radius: 15px;
+}
+/* --- APARTADO 7 --- */
+.box-activity .activity-date {
+  padding: 12px;
+  background-color: #202836;  
+  font-size: 16px;
+  color: #fff;
+}
+/* --- APARTADO 8 --- */
+.box-activity .activity-info {
+  padding-top: 64px;
+  border: 4px solid #202836;
+  background: rgba(59, 179, 117, .7);
+  font-size: 17px;
+  color: #fff;
+  text-transform: uppercase;
+  opacity: 0;
+  transition: all 0.6s ease 0s;
+}
+.box-activity:hover .activity-info {
+  opacity: 1;
+}
+.box-activity .activity-title {
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #39464f;
+  text-transform: uppercase;
+}
+.box-activity .activity-text {
+  margin-bottom: 20px;  
+  padding-top: 7px;
+  line-height: 24px;
+}
+/* --- APARTADO 9 --- */
+.box-activity .activity-button {
+	padding: 10px 20px;
+  border-radius: 5px;
+  background-color: #39464f;
+  text-align: center;
+	font-size: 12px;
+	text-transform: uppercase;	
+	color: #fff;
+  transition: all 0.6s ease 0s;
+}
+.box-activity .activity-button:hover {
+	background-color: #3bb375;
+}
+.box-activity .activity-button .btn-more {
+	color: #fff;
+}
+
+/* BACK-TOP ======================================= */
+
+/* --- APARTADO 10 --- */
+#back-top .top-link {
+  border-radius: 50%;
+	background-color: #111;
+  transition: all 0.4s ease-in 0s;
+}
+#back-top .top-link:hover {
+	background-color: #3bb375;	
+}
+#back-top .top-link span {
+	padding: 21px;
+	background: url(../img/back-top.png) center center no-repeat;
+  line-height: 42px;
+}
+
